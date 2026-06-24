@@ -15,8 +15,10 @@ import logging
 from contextlib import asynccontextmanager
 from typing import Any, Dict, List, Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Depends
 from pydantic import BaseModel, Field
+
+from app.auth import authenticate
 
 from app.agent import agent_router
 from app.config import (
@@ -171,11 +173,33 @@ def health() -> Dict[str, Any]:
 
 
 # =====================================================
+# AUTHENTICATION CHECK
+# =====================================================
+
+@app.get("/auth/check")
+def auth_check(
+    _: str = Depends(authenticate)
+) -> Dict[str, str]:
+    """
+    Lightweight endpoint used to verify
+    HTTP Basic Authentication credentials.
+
+    Returns success only if the provided
+    credentials are valid.
+    """
+
+    return {
+        "status": "authenticated"
+    }
+
+
+# =====================================================
 # INGEST DOCUMENTS
 # =====================================================
 
 @app.post("/ingest")
-def ingest_documents() -> Dict[str, Any]:
+def ingest_documents(_: str = Depends(authenticate)) -> Dict[str, Any]:
+
     """
     Read healthcare documents,
     chunk them,
@@ -231,7 +255,8 @@ def ingest_documents() -> Dict[str, Any]:
     response_model=AskResponse
 )
 def ask(
-    request: AskRequest
+    request: AskRequest,
+    _: str = Depends(authenticate)
 ) -> Dict[str, Any]:
     """
     Main question answering endpoint.
@@ -308,7 +333,7 @@ def ask(
 # =====================================================
 
 @app.delete("/reset")
-def reset_knowledge_base() -> Dict[str, Any]:
+def reset_knowledge_base(_: str = Depends(authenticate)) -> Dict[str, Any]:
     """
     Development endpoint.
 

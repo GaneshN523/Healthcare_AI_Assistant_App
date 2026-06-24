@@ -1,0 +1,27 @@
+.git
+venv
+.venv
+__pycache__
+*.pyc
+.env
+
+# Python cache directories
+__pycache__/
+*.pyc
+
+# Virtual environment
+HAAA/
+.venv/
+venv/
+
+# Requests and responses directories
+requests/
+responses/
+
+# Documentation files
+Building.md
+RUNNING.md
+Stages.md
+
+Dockerfile
+docker-compose.yml

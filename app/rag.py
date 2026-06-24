@@ -31,6 +31,7 @@ from app.config import (
     MIN_CONFIDENCE_HIGH,
     MIN_CONFIDENCE_MEDIUM,
     TOP_K_RESULTS,
+    VECTOR_STORE_DIR,
 )
 from app.embeddings import generate_embedding
 

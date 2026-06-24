@@ -40,7 +40,7 @@ CHROMA_COLLECTION_NAME = "healthcare_documents"
 
 CHROMA_PERSIST_DIRECTORY = str(VECTOR_STORE_DIR)
 
-
+VECTOR_STORE_DIR = Path("vector_store")
 # =====================================================
 # OLLAMA SETTINGS
 # =====================================================

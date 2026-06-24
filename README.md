@@ -139,13 +139,58 @@ Agent Router
 
 # 4. API Endpoints
 
-## 4.1 Health Check
+## Authentication
+
+The API uses **HTTP Basic Authentication** for sensitive operations.
+
+### Credentials (Example Credentials)
+
+```text
+Username: admin
+Password: admin123
+```
+
+### Protected Endpoints
+
+| Method | Endpoint  | Authentication Required |
+| ------ | --------- | ----------------------- |
+| POST   | `/ask`    | Yes                     |
+| POST   | `/ingest` | Yes                     |
+| DELETE | `/reset`  | Yes                     |
+
+### Public Endpoints
+
+| Method | Endpoint  |
+| ------ | --------- |
+| GET    | `/`       |
+| GET    | `/health` |
+
+---
+
+## 4.1 Root Endpoint
+
+```http
+GET /
+```
+
+### Response
+
+```json
+{
+  "message": "Healthcare AI Assistant API",
+  "version": "1.0.0"
+}
+```
+
+---
+
+## 4.2 Health Check
 
 ```http
 GET /health
 ```
 
-Response:
+### Response
 
 ```json
 {
@@ -155,20 +200,22 @@ Response:
 
 ---
 
-## 4.2 Ingest Documents
+## 4.3 Ingest Documents
 
 ```http
 POST /ingest
 ```
 
-Description:
+**Authentication Required:** Yes
+
+### Description
 
 * Loads documents from `/data`
-* Splits into chunks
+* Splits documents into chunks
 * Generates embeddings
-* Stores in ChromaDB
+* Stores vectors in ChromaDB
 
-Response:
+### Response
 
 ```json
 {
@@ -180,13 +227,15 @@ Response:
 
 ---
 
-## 4.3 Ask Question
+## 4.4 Ask Question
 
 ```http
 POST /ask
 ```
 
-Request:
+**Authentication Required:** Yes
+
+### Request
 
 ```json
 {
@@ -200,7 +249,11 @@ Request:
 {
   "route": "rag",
   "answer": "Patients can request medication refills during telehealth visits...",
-  "sources": ["telehealth.txt"]
+  "sources": [
+    {
+      "document": "telehealth.txt"
+    }
+  ]
 }
 ```
 
@@ -211,10 +264,96 @@ Request:
   "route": "tool",
   "result": {
     "department": "Cardiology",
-    "available_slots": ["10:00 AM", "2:00 PM"]
+    "available_slots": [
+      "10:00 AM",
+      "2:00 PM"
+    ]
   }
 }
 ```
+
+---
+
+## 4.5 Reset Knowledge Base
+
+```http
+DELETE /reset
+```
+
+**Authentication Required:** Yes
+
+### Description
+
+* Clears the ChromaDB vector database
+* Removes indexed document embeddings
+* Resets the knowledge base
+
+### Response
+
+```json
+{
+  "status": "success",
+  "message": "Knowledge base reset successfully"
+}
+```
+
+After reset, documents must be re-ingested using:
+
+```http
+POST /ingest
+```
+
+to rebuild the vector database.
+
+---
+
+## Swagger Authentication
+
+Open:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+Click:
+
+```text
+Authorize
+```
+
+Enter:
+
+```text
+Username: admin
+Password: admin123
+```
+
+Click:
+
+```text
+Authorize
+```
+
+You can now access protected endpoints directly from Swagger UI.
+
+---
+
+## Unauthorized Access Example
+
+Response when credentials are missing or invalid:
+
+```json
+{
+  "detail": "Not authenticated"
+}
+```
+
+### Status Code
+
+```text
+401 Unauthorized
+```
+
 
 ---
 
@@ -350,7 +489,10 @@ Keywords:
 * Rule-based (not ML-based) agent
 * No long-term memory or conversation history
 * Retrieval quality depends on chunking strategy
-* No authentication or user management
+* Uses simple HTTP Basic Authentication
+* No user database
+* No role-based access control
+* Credentials are hardcoded for demonstration purposes
 
 ---
 
@@ -360,10 +502,54 @@ Keywords:
 * Re-ranking model for better retrieval accuracy
 * Memory-enabled conversations
 * LangGraph or CrewAI-based agent system
-* JWT authentication layer
+* JWT authentication with access and refresh tokens
+* Role-based authorization
+* Database-backed user management
+* OAuth2 integration
 * Cloud deployment (AWS/Azure/GCP)
 
 ---
+
+# 9. Security Features
+
+## HTTP Basic Authentication
+
+The application uses FastAPI's **HTTP Basic Authentication** to protect resource-intensive and administrative endpoints.
+
+### Protected Endpoints
+
+- `POST /ask`
+- `POST /ingest`
+- `DELETE /reset`
+
+Authentication is validated before any expensive operations are executed.
+
+### This Prevents
+
+- Unauthorized LLM access
+- Unauthorized vector database modifications
+- Unauthorized knowledge base resets
+
+### If Authentication Fails
+
+- The request is immediately rejected
+- No vector search is performed
+- No ChromaDB operations occur
+- No Ollama inference occurs
+
+### Response
+
+```json
+{
+  "detail": "Not authenticated"
+}
+```
+
+### Status Code
+
+```text
+401 Unauthorized
+```
 
 # End of README
 
