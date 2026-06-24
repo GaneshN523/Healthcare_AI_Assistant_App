@@ -1,0 +1,172 @@
+TELEHEALTH SERVICES POLICY
+
+Source References:
+
+* MedlinePlus Health Information
+* World Health Organization (WHO) Digital Health Guidance
+* General healthcare telehealth best practices
+
+Last Updated: June 2026
+
+OVERVIEW
+
+Telehealth is the delivery of healthcare services using telecommunications technology. It allows patients and healthcare providers to communicate remotely using video calls, telephone calls, secure messaging systems, and other digital communication tools.
+
+Telehealth can improve access to care, reduce travel requirements, and support ongoing management of health conditions. Telehealth services may be used for routine consultations, follow-up appointments, medication reviews, and certain types of patient education.
+
+Telehealth is not intended to replace emergency medical services. Patients experiencing a medical emergency should contact local emergency services or visit the nearest emergency department.
+
+ELIGIBLE TELEHEALTH SERVICES
+
+Telehealth may be used for a variety of healthcare services, including:
+
+* Follow-up consultations
+* Chronic disease management
+* Medication review appointments
+* Mental health consultations
+* Health education and counseling
+* Preventive care discussions
+* Review of laboratory or imaging results
+* Post-discharge follow-up visits
+
+The availability of specific telehealth services depends on provider qualifications, organizational policies, and applicable regulations.
+
+SERVICES THAT MAY REQUIRE IN-PERSON VISITS
+
+Certain situations may require an in-person evaluation, including:
+
+* Medical emergencies
+* Severe injuries
+* Conditions requiring physical examination
+* Procedures requiring direct clinical intervention
+* Situations where remote assessment is insufficient
+* Diagnostic testing that cannot be performed remotely
+
+Healthcare providers determine whether a telehealth visit is appropriate based on the patient's condition and clinical needs.
+
+PATIENT ELIGIBILITY
+
+Patients may be eligible for telehealth services if:
+
+* They can communicate effectively through approved technology.
+* Their condition is appropriate for remote consultation.
+* They provide any required consent.
+* They have access to necessary devices and internet connectivity when required.
+
+Eligibility requirements may vary depending on the healthcare organization and service type.
+
+SCHEDULING TELEHEALTH APPOINTMENTS
+
+Patients may request telehealth appointments through approved scheduling channels.
+
+Appointment requests may be submitted using:
+
+* Patient portals
+* Telephone scheduling services
+* Online appointment systems
+* Referral processes when applicable
+
+Appointment availability depends on provider schedules and service capacity.
+
+PREPARING FOR A TELEHEALTH VISIT
+
+Patients are encouraged to:
+
+* Join the appointment from a quiet location.
+* Ensure adequate internet connectivity.
+* Have identification available if requested.
+* Prepare questions in advance.
+* Keep a list of medications available.
+* Gather relevant health information before the visit.
+
+Preparation can help improve communication and appointment efficiency.
+
+MEDICATION REVIEW DURING TELEHEALTH
+
+Healthcare providers may review medications during telehealth appointments.
+
+Medication reviews may include:
+
+* Current prescription medications
+* Over-the-counter medications
+* Supplements
+* Potential side effects
+* Medication adherence discussions
+
+Providers may recommend adjustments, additional evaluations, or follow-up appointments when appropriate.
+
+MEDICATION REFILL REQUESTS
+
+Patients may request medication refills during telehealth appointments when permitted by applicable policies and regulations.
+
+Medication refill requests are subject to provider review and approval.
+
+Factors considered during refill review may include:
+
+* Medical history
+* Current treatment plan
+* Medication safety considerations
+* Follow-up requirements
+* Regulatory requirements
+
+A refill request does not guarantee approval.
+
+Some medications may require an in-person assessment before renewal.
+
+FOLLOW-UP CARE
+
+Telehealth can be used for follow-up care after an initial consultation.
+
+Follow-up appointments may be scheduled to:
+
+* Review symptoms
+* Monitor treatment progress
+* Discuss test results
+* Evaluate medication effectiveness
+* Address patient concerns
+
+Providers determine appropriate follow-up intervals based on clinical circumstances.
+
+PRIVACY AND SECURITY
+
+Telehealth services should use approved communication platforms designed to protect patient information.
+
+Patients are encouraged to:
+
+* Use private networks when possible.
+* Avoid sharing appointment links.
+* Protect login credentials.
+* Conduct visits in private settings.
+
+Healthcare organizations should implement safeguards to protect confidential information.
+
+LIMITATIONS OF TELEHEALTH
+
+Telehealth may have limitations including:
+
+* Technology failures
+* Connectivity issues
+* Limited ability to perform physical examinations
+* Reduced access to certain diagnostic procedures
+* Communication challenges
+
+Providers may recommend in-person care when telehealth limitations affect clinical decision-making.
+
+FREQUENTLY ASKED QUESTIONS
+
+Q: Can patients receive follow-up care through telehealth?
+A: Many follow-up visits may be conducted through telehealth when clinically appropriate.
+
+Q: Can medication refills be requested during telehealth visits?
+A: Refill requests may be discussed during telehealth appointments and are subject to provider review and approval.
+
+Q: Is telehealth appropriate for emergencies?
+A: No. Emergency medical conditions require immediate emergency care.
+
+Q: Can providers review test results through telehealth?
+A: Yes. Test results may often be reviewed during telehealth consultations.
+
+Q: Are all healthcare services available through telehealth?
+A: No. Some services require in-person examination, testing, or treatment.
+
+END OF DOCUMENT

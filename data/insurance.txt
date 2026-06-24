@@ -1,0 +1,269 @@
+HEALTH INSURANCE AND COVERAGE POLICY
+
+Source References:
+
+* Centers for Medicare & Medicaid Services (CMS) Public Information
+* MedlinePlus Health Information
+* General Healthcare Insurance Administration Practices
+
+Last Updated: June 2026
+
+OVERVIEW
+
+Health insurance helps individuals manage healthcare costs by providing financial coverage for eligible medical services. Insurance plans may cover preventive care, physician visits, hospital services, prescription medications, diagnostic testing, and other healthcare services depending on plan terms.
+
+Coverage details vary among insurance providers, plans, employers, and government-sponsored programs.
+
+PURPOSE OF HEALTH INSURANCE
+
+Health insurance is intended to:
+
+* Improve access to healthcare services
+* Reduce out-of-pocket medical expenses
+* Support preventive care
+* Assist with treatment costs
+* Promote continuity of care
+
+Insurance coverage does not guarantee payment for all healthcare services.
+
+COMMON INSURANCE TERMS
+
+Premium
+
+A premium is the amount paid to maintain insurance coverage. Premiums may be paid monthly, quarterly, or annually.
+
+Deductible
+
+A deductible is the amount a patient may be required to pay before certain insurance benefits become available.
+
+Copayment
+
+A copayment is a fixed amount paid by the patient for specific healthcare services.
+
+Coinsurance
+
+Coinsurance is the percentage of healthcare costs shared between the patient and the insurance plan after applicable requirements are met.
+
+Out-of-Pocket Maximum
+
+An out-of-pocket maximum is the highest amount a patient may be required to pay during a coverage period for covered services.
+
+ELIGIBLE HEALTHCARE SERVICES
+
+Insurance plans may provide coverage for:
+
+* Primary care visits
+* Specialist consultations
+* Preventive services
+* Laboratory testing
+* Imaging services
+* Hospital care
+* Emergency services
+* Prescription medications
+* Telehealth services
+
+Coverage depends on individual plan benefits and policy terms.
+
+INSURANCE VERIFICATION
+
+Healthcare organizations may verify insurance information before providing non-emergency services.
+
+Verification may include:
+
+* Active coverage status
+* Member identification details
+* Plan eligibility
+* Benefit information
+* Referral requirements
+* Authorization requirements
+
+Verification does not guarantee final claim approval.
+
+PATIENT RESPONSIBILITIES
+
+Patients are encouraged to:
+
+* Provide current insurance information
+* Present insurance identification cards when requested
+* Notify providers of coverage changes
+* Review plan documents
+* Understand applicable costs and limitations
+
+Accurate information helps reduce claim processing issues.
+
+REFERRALS
+
+Some insurance plans require referrals before certain specialist services are covered.
+
+Referral requirements may depend on:
+
+* Plan design
+* Provider networks
+* Service type
+* Coverage rules
+
+Patients should confirm referral requirements before scheduling specialist appointments.
+
+PRIOR AUTHORIZATION
+
+Certain services may require prior authorization before coverage is approved.
+
+Examples may include:
+
+* Specialized treatments
+* Advanced imaging procedures
+* Certain medications
+* Elective procedures
+* Specialty services
+
+Authorization requirements vary among insurance plans.
+
+NETWORK PROVIDERS
+
+Insurance plans may establish provider networks.
+
+Network providers are healthcare professionals and facilities that have agreements with insurance organizations.
+
+Patients may receive different coverage levels when using:
+
+* In-network providers
+* Out-of-network providers
+
+Coverage differences depend on plan terms.
+
+CLAIMS PROCESSING
+
+After services are provided, healthcare organizations may submit claims to insurance carriers for review.
+
+Claims processing may involve:
+
+* Eligibility review
+* Coverage determination
+* Benefit calculation
+* Payment processing
+
+Final payment decisions are determined by the insurance provider.
+
+DENIED CLAIMS
+
+Insurance claims may be denied for various reasons, including:
+
+* Incomplete information
+* Coverage limitations
+* Eligibility issues
+* Missing authorizations
+* Referral requirements not met
+* Non-covered services
+
+Patients may have appeal rights depending on plan policies and applicable regulations.
+
+PRESCRIPTION DRUG COVERAGE
+
+Many insurance plans provide prescription medication benefits.
+
+Coverage may depend on:
+
+* Medication formularies
+* Generic medication availability
+* Prior authorization requirements
+* Quantity limits
+* Coverage tiers
+
+Patients should review plan-specific prescription benefits.
+
+PREVENTIVE CARE
+
+Many insurance plans encourage preventive healthcare services.
+
+Examples include:
+
+* Wellness visits
+* Vaccinations
+* Health screenings
+* Preventive counseling
+
+Coverage policies vary by insurance plan and applicable regulations.
+
+TELEHEALTH COVERAGE
+
+Some insurance plans provide coverage for telehealth services.
+
+Coverage considerations may include:
+
+* Eligible service types
+* Provider requirements
+* Geographic restrictions
+* Cost-sharing obligations
+
+Patients should verify telehealth benefits with their insurance provider.
+
+EMERGENCY SERVICES
+
+Emergency medical services may be covered according to plan terms and applicable regulations.
+
+Coverage rules for emergency services may differ from non-emergency care requirements.
+
+Patients experiencing emergencies should seek immediate medical attention.
+
+COORDINATION OF BENEFITS
+
+Patients with multiple insurance plans may be subject to coordination of benefits procedures.
+
+This process helps determine which plan pays first and how remaining costs are handled.
+
+Additional documentation may be required when multiple plans are involved.
+
+PATIENT BILLING
+
+Patients may receive billing statements for:
+
+* Deductibles
+* Copayments
+* Coinsurance
+* Non-covered services
+* Outstanding balances
+
+Questions regarding billing should be directed to the appropriate billing department or insurance provider.
+
+INSURANCE PRIVACY
+
+Insurance information should be handled according to applicable privacy and security requirements.
+
+Authorized personnel may access insurance information only when necessary to perform approved healthcare, billing, or administrative functions.
+
+FREQUENTLY ASKED QUESTIONS
+
+Q: Does having insurance guarantee that all services will be covered?
+A: No. Coverage depends on plan benefits, eligibility requirements, and policy terms.
+
+Q: What is a deductible?
+A: A deductible is the amount a patient may need to pay before certain insurance benefits become available.
+
+Q: What is prior authorization?
+A: Prior authorization is a review process required by some insurance plans before certain services or medications are covered.
+
+Q: Can telehealth services be covered by insurance?
+A: Some insurance plans provide telehealth coverage, subject to plan requirements and limitations.
+
+Q: Why was my claim denied?
+A: Claims may be denied for reasons such as missing information, coverage limitations, eligibility issues, or authorization requirements.
+
+EXAMPLE INSURANCE WORKFLOW
+
+Patient Schedules Service
+↓
+Insurance Information Collected
+↓
+Coverage Verified
+↓
+Service Provided
+↓
+Claim Submitted
+↓
+Insurance Review Performed
+↓
+Payment Determined
+↓
+Patient Receives Explanation of Benefits
+
+END OF DOCUMENT

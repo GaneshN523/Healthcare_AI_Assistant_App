@@ -1,0 +1,275 @@
+PATIENT DISCHARGE AND FOLLOW-UP CARE POLICY
+
+Source References:
+
+* MedlinePlus Health Information
+* Agency for Healthcare Research and Quality (AHRQ)
+* General Hospital and Outpatient Care Best Practices
+
+Last Updated: June 2026
+
+OVERVIEW
+
+Patient discharge is the process through which a patient completes a healthcare visit, hospital stay, or treatment episode and transitions to self-care, home care, or another healthcare setting.
+
+The discharge process is intended to support continuity of care, patient safety, and successful recovery following treatment.
+
+Patients should carefully review discharge instructions and follow all recommendations provided by their healthcare team.
+
+PURPOSE OF DISCHARGE PLANNING
+
+Discharge planning helps ensure that patients:
+
+* Understand their treatment plan
+* Know how to manage their condition after discharge
+* Understand medication instructions
+* Know when to seek medical attention
+* Receive appropriate follow-up care
+* Have access to necessary healthcare resources
+
+Effective discharge planning can help reduce complications and improve health outcomes.
+
+DISCHARGE ELIGIBILITY
+
+A patient may be considered ready for discharge when:
+
+* Treatment goals have been achieved
+* The patient's condition is stable
+* Appropriate follow-up arrangements have been made
+* Required discharge instructions have been provided
+* The healthcare provider determines that discharge is appropriate
+
+Discharge decisions are made by qualified healthcare professionals based on clinical judgment and organizational policies.
+
+DISCHARGE INSTRUCTIONS
+
+Patients may receive written, verbal, or electronic discharge instructions.
+
+Instructions may include:
+
+* Diagnosis information
+* Treatment summary
+* Medication instructions
+* Activity recommendations
+* Dietary recommendations
+* Follow-up appointment information
+* Warning signs requiring medical attention
+
+Patients are encouraged to ask questions if any instructions are unclear.
+
+MEDICATION INSTRUCTIONS
+
+Discharge instructions may include information regarding:
+
+* New medications
+* Continued medications
+* Discontinued medications
+* Medication schedules
+* Dosage instructions
+* Potential side effects
+
+Patients should follow medication instructions exactly as provided by their healthcare provider.
+
+FOLLOW-UP APPOINTMENTS
+
+Many patients require follow-up care after discharge.
+
+Follow-up appointments may be scheduled to:
+
+* Monitor recovery progress
+* Review symptoms
+* Evaluate treatment effectiveness
+* Discuss test results
+* Adjust medications if necessary
+
+Patients should attend all recommended follow-up appointments.
+
+ACTIVITY RECOMMENDATIONS
+
+Patients may receive activity guidelines based on their condition and treatment.
+
+Recommendations may include:
+
+* Physical activity limitations
+* Exercise guidance
+* Work restrictions
+* Driving restrictions
+* Lifting restrictions
+* Rehabilitation instructions
+
+Activity recommendations may vary significantly depending on the patient's medical condition.
+
+DIETARY GUIDANCE
+
+Certain patients may receive dietary recommendations after discharge.
+
+Examples include:
+
+* Fluid intake recommendations
+* Nutritional guidelines
+* Special dietary restrictions
+* Diabetes meal planning
+* Heart-healthy diet recommendations
+
+Patients should follow provider instructions regarding nutrition and hydration.
+
+WARNING SIGNS AND SYMPTOMS
+
+Patients should understand which symptoms may require medical attention after discharge.
+
+Examples may include:
+
+* Worsening symptoms
+* New or severe pain
+* Difficulty breathing
+* Persistent fever
+* Uncontrolled bleeding
+* Severe allergic reactions
+
+Specific warning signs depend on the patient's condition and treatment.
+
+EMERGENCY SITUATIONS
+
+Patients experiencing medical emergencies should seek immediate emergency care.
+
+Examples may include:
+
+* Loss of consciousness
+* Severe chest pain
+* Signs of stroke
+* Severe breathing difficulties
+* Major injuries
+* Life-threatening symptoms
+
+Discharge instructions do not replace emergency medical services.
+
+HOME CARE SERVICES
+
+Some patients may require additional support after discharge.
+
+Home care services may include:
+
+* Nursing services
+* Rehabilitation services
+* Medication assistance
+* Health monitoring
+* Personal care support
+
+Service availability depends on patient needs and available resources.
+
+CAREGIVER INVOLVEMENT
+
+Family members or caregivers may assist patients after discharge.
+
+Caregiver responsibilities may include:
+
+* Supporting medication management
+* Monitoring symptoms
+* Assisting with transportation
+* Helping with daily activities
+* Supporting follow-up care
+
+Patients may choose whether to involve caregivers when permitted by applicable policies and regulations.
+
+MEDICAL EQUIPMENT
+
+Some patients may require medical equipment following discharge.
+
+Examples may include:
+
+* Mobility aids
+* Monitoring devices
+* Oxygen equipment
+* Rehabilitation equipment
+
+Patients should receive instructions regarding the proper use and maintenance of prescribed equipment.
+
+TRANSFER TO ANOTHER FACILITY
+
+In some situations, patients may be discharged to another healthcare facility.
+
+Examples include:
+
+* Rehabilitation centers
+* Skilled nursing facilities
+* Long-term care facilities
+* Specialty treatment centers
+
+Transfer decisions are based on clinical needs and available services.
+
+PATIENT RESPONSIBILITIES AFTER DISCHARGE
+
+Patients are encouraged to:
+
+* Follow discharge instructions carefully
+* Take medications as prescribed
+* Attend follow-up appointments
+* Monitor symptoms
+* Report concerning changes
+* Maintain communication with healthcare providers
+
+Active participation supports recovery and ongoing care.
+
+DISCHARGE DOCUMENTATION
+
+Healthcare organizations may provide discharge documentation that includes:
+
+* Treatment summaries
+* Medication lists
+* Follow-up recommendations
+* Contact information
+* Care instructions
+
+Patients should retain discharge documents for future reference.
+
+TELEHEALTH FOLLOW-UP
+
+Some follow-up visits may be conducted through telehealth services.
+
+Telehealth follow-up appointments may be used to:
+
+* Review recovery progress
+* Discuss symptoms
+* Evaluate treatment outcomes
+* Review medications
+
+Providers determine whether telehealth follow-up is appropriate based on the patient's condition.
+
+COMMON QUESTIONS
+
+Q: What should I do after receiving discharge instructions?
+A: Patients should carefully follow all instructions, take medications as directed, and attend recommended follow-up appointments.
+
+Q: Can follow-up appointments occur through telehealth?
+A: Some follow-up visits may be conducted through telehealth when clinically appropriate.
+
+Q: What if I do not understand my discharge instructions?
+A: Patients should contact their healthcare provider and request clarification.
+
+Q: Why are follow-up appointments important?
+A: Follow-up appointments help monitor recovery, evaluate treatment effectiveness, and identify potential complications.
+
+Q: What symptoms require immediate medical attention?
+A: Emergency symptoms may include severe chest pain, difficulty breathing, loss of consciousness, signs of stroke, or other life-threatening conditions.
+
+EXAMPLE DISCHARGE WORKFLOW
+
+Patient Treatment Completed
+↓
+Clinical Evaluation Performed
+↓
+Discharge Eligibility Confirmed
+↓
+Instructions Provided
+↓
+Medication Plan Reviewed
+↓
+Follow-Up Arranged
+↓
+Patient Discharged
+↓
+Recovery Monitoring
+↓
+Follow-Up Visit Completed
+
+END OF DOCUMENT

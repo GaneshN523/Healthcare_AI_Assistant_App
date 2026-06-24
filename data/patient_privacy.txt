@@ -1,0 +1,239 @@
+PATIENT PRIVACY AND HEALTH INFORMATION POLICY
+
+Source References:
+
+* U.S. Department of Health and Human Services (HHS)
+* HIPAA Privacy Rule Guidance
+* MedlinePlus Health Information
+* General Healthcare Privacy Best Practices
+
+Last Updated: June 2026
+
+OVERVIEW
+
+Patient privacy is a fundamental principle of healthcare. Healthcare organizations are responsible for protecting patient information and ensuring that health records are handled in a secure and confidential manner.
+
+Patients have rights regarding how their health information is collected, stored, accessed, and shared. Healthcare organizations must implement safeguards to protect sensitive information from unauthorized access, disclosure, alteration, or misuse.
+
+DEFINITION OF HEALTH INFORMATION
+
+Health information includes any information related to a person's:
+
+* Medical history
+* Diagnoses
+* Treatments
+* Medications
+* Laboratory results
+* Imaging reports
+* Appointment records
+* Insurance information
+* Billing information
+
+Health information may exist in paper records, electronic systems, or other approved formats.
+
+PATIENT PRIVACY RIGHTS
+
+Patients generally have the right to:
+
+* Access their health records
+* Request corrections to inaccurate information
+* Receive information about privacy practices
+* Request limitations on certain disclosures
+* Obtain copies of their records when permitted
+* Request confidential communications when available
+
+Healthcare organizations may establish procedures for processing such requests.
+
+ACCESS TO HEALTH RECORDS
+
+Access to patient records is limited to authorized individuals who require the information to perform approved healthcare, operational, or administrative functions.
+
+Examples of authorized access may include:
+
+* Physicians
+* Nurses
+* Pharmacists
+* Laboratory personnel
+* Billing staff
+* Approved administrative personnel
+
+Access should be limited to the minimum information necessary to perform assigned responsibilities.
+
+UNAUTHORIZED ACCESS
+
+Unauthorized access occurs when an individual views, uses, or discloses patient information without appropriate authorization or legitimate business need.
+
+Examples include:
+
+* Viewing records out of curiosity
+* Sharing patient information without authorization
+* Accessing records unrelated to assigned duties
+* Using patient information for personal purposes
+
+Unauthorized access may result in disciplinary action and other consequences.
+
+DISCLOSURE OF HEALTH INFORMATION
+
+Healthcare organizations may disclose health information in situations permitted by law, policy, or patient authorization.
+
+Examples may include:
+
+* Treatment coordination
+* Healthcare operations
+* Payment processing
+* Public health reporting
+* Legal requirements
+* Patient-authorized disclosures
+
+Disclosure practices are subject to applicable regulations and organizational policies.
+
+PATIENT AUTHORIZATION
+
+Certain disclosures may require patient authorization before information can be released.
+
+Authorization requests may include:
+
+* Purpose of disclosure
+* Information being released
+* Recipient of information
+* Duration of authorization
+
+Patients may revoke authorization when permitted by applicable policies and regulations.
+
+MINIMUM NECESSARY STANDARD
+
+Healthcare personnel should access or disclose only the minimum amount of information necessary to complete a specific task.
+
+Examples include:
+
+* Billing personnel accessing billing-related information
+* Scheduling staff accessing appointment information
+* Providers accessing clinical information needed for treatment
+
+Limiting information access helps protect patient privacy.
+
+ELECTRONIC HEALTH RECORDS
+
+Electronic health records are commonly used to store and manage patient information.
+
+Healthcare organizations should implement safeguards such as:
+
+* User authentication
+* Password protection
+* Access controls
+* Audit logging
+* Encryption when appropriate
+* Security monitoring
+
+Electronic systems should be regularly maintained and reviewed for security risks.
+
+PATIENT PORTALS
+
+Patient portals allow patients to access portions of their health information electronically.
+
+Portal features may include:
+
+* Viewing appointments
+* Accessing test results
+* Requesting prescription refills
+* Secure messaging
+* Reviewing visit summaries
+
+Patients are encouraged to protect account credentials and use secure devices when accessing portal services.
+
+CONFIDENTIAL COMMUNICATIONS
+
+Patients may request confidential methods of communication when available.
+
+Examples include:
+
+* Alternative mailing addresses
+* Secure electronic communications
+* Designated contact preferences
+
+Organizations may establish procedures for managing such requests.
+
+DATA SECURITY RESPONSIBILITIES
+
+Healthcare organizations should take reasonable steps to protect information from:
+
+* Unauthorized access
+* Data breaches
+* Theft
+* Loss
+* Improper disclosure
+* Cybersecurity threats
+
+Security measures may include administrative, technical, and physical safeguards.
+
+BREACH RESPONSE
+
+A privacy or security breach may occur when protected information is accessed, used, or disclosed improperly.
+
+Organizations may respond by:
+
+* Investigating the incident
+* Containing the exposure
+* Assessing potential impact
+* Implementing corrective actions
+* Providing required notifications
+
+Response procedures depend on organizational policies and applicable regulations.
+
+PATIENT RESPONSIBILITIES
+
+Patients can help protect their information by:
+
+* Keeping passwords secure
+* Updating contact information
+* Monitoring account activity
+* Protecting personal devices
+* Reporting suspicious activity
+
+Shared responsibility helps improve information security.
+
+RETENTION OF HEALTH RECORDS
+
+Healthcare organizations may retain records for periods established by applicable laws, regulations, and organizational policies.
+
+Retention periods may vary depending on:
+
+* Record type
+* Patient age
+* Regulatory requirements
+* Legal obligations
+
+Records should be managed in accordance with approved retention schedules.
+
+FREQUENTLY ASKED QUESTIONS
+
+Q: Who can access my health records?
+A: Access is generally limited to authorized individuals who require the information for approved healthcare, operational, or administrative purposes.
+
+Q: Can my health information be shared without my permission?
+A: Certain disclosures may be permitted by law, policy, or healthcare operations. Other disclosures may require authorization.
+
+Q: Can I request a copy of my records?
+A: Patients may request access to their records according to organizational procedures and applicable regulations.
+
+Q: What should I do if I suspect unauthorized access?
+A: Patients should report concerns to the appropriate healthcare organization or privacy office.
+
+Q: Are electronic health records secure?
+A: Healthcare organizations implement security measures to protect electronic records, although no system can completely eliminate risk.
+
+EXAMPLE INFORMATION ACCESS FLOW
+
+Patient Information Created
+↓
+Stored in Approved Record System
+↓
+Authorized Personnel Request Access
+↓
+Access Validated
+↓
+Information Used for Approved Purpose
+↓
+Access Logged and Monitored
+
+END OF DOCUMENT

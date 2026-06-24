@@ -1,0 +1,14 @@
+# Python cache directories anywhere
+__pycache__/
+
+# Virtual environment
+/HAAA/
+
+# Requests and responses directories
+/requests/
+/responses/
+
+# Root-level documentation files only
+/Building.md
+/RUNNING.md
+/Stages.md
