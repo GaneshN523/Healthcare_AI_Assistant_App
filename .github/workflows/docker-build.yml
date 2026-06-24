@@ -13,14 +13,9 @@ jobs:
 docker:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout
     uses: actions/checkout@v4
-
-  - name: Convert owner to lowercase
-    run: |
-      echo "OWNER_LC=$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
   - name: Login to GHCR
     uses: docker/login-action@v3
@@ -32,11 +27,10 @@ steps:
   - name: Build Image
     run: |
       docker build \
-        -t ghcr.io/${OWNER_LC}/healthcare-ai-assistant:latest \
+        -t ghcr.io/ganeshn523/healthcare-ai-assistant:latest \
         .
 
   - name: Push Image
     run: |
       docker push \
-        ghcr.io/${OWNER_LC}/healthcare-ai-assistant:latest
-```
+        ghcr.io/ganeshn523/healthcare-ai-assistant:latest
