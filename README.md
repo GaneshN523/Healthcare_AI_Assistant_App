@@ -410,21 +410,207 @@ These documents form the knowledge base for the RAG system.
 
 ---
 
-# 7. Docker Setup
+# 7. Containerization and Docker Support
 
-## Build Image
+## Overview
 
-```bash
-docker build -t healthcare-ai .
+The project has been containerized using Docker to provide a reproducible deployment environment.
+
+The Docker image contains:
+
+* FastAPI backend
+* Streamlit frontend
+* Application source code
+* Python dependencies
+
+The image does **not** contain:
+
+* Ollama
+* Phi-3 model weights
+
+Ollama is expected to run separately on the host machine or another accessible system.
+
+---
+
+## Container Architecture
+
+```text
+User
+  │
+  ▼
+Streamlit UI (Port 8501)
+  │
+  ▼
+FastAPI Backend (Port 8000)
+  │
+  ▼
+Ollama + Phi3 (Host Machine)
 ```
 
-## Run Container
+The Docker container hosts both Streamlit and FastAPI within a single image.
+
+---
+
+## Docker Files
+
+### Dockerfile
+
+Defines:
+
+* Base Python image
+* Dependency installation
+* Application file copying
+* Port exposure
+* Startup configuration
+
+### start.sh
+
+Responsible for starting:
+
+* FastAPI on port 8000
+* Streamlit on port 8501
+
+within the same container.
+
+### .dockerignore
+
+Excludes unnecessary files from the Docker build context to reduce image size and improve build speed.
+
+---
+
+## Build Docker Image
+
+From the project root:
 
 ```bash
-docker-compose up
+docker build -t healthcare-ai-assistant .
 ```
 
-The container exposes the FastAPI service.
+---
+
+## Run Docker Container
+
+### Linux / macOS
+
+```bash
+docker run -d \
+-p 8000:8000 \
+-p 8501:8501 \
+-e OLLAMA_HOST=http://host.docker.internal:11434 \
+--name healthcare-ai-assistant \
+healthcare-ai-assistant
+```
+
+### Windows PowerShell
+
+```powershell
+docker run -d `
+-p 8000:8000 `
+-p 8501:8501 `
+-e OLLAMA_HOST=http://host.docker.internal:11434 `
+--name healthcare-ai-assistant `
+healthcare-ai-assistant
+```
+
+---
+
+## Access Services
+
+### FastAPI
+
+```text
+http://localhost:8000
+```
+
+### Swagger UI
+
+```text
+http://localhost:8000/docs
+```
+
+### Streamlit
+
+```text
+http://localhost:8501
+```
+
+---
+
+## Ollama Configuration
+
+The application reads the Ollama endpoint from an environment variable:
+
+```python
+OLLAMA_HOST = os.getenv(
+    "OLLAMA_HOST",
+    "http://localhost:11434"
+)
+```
+
+This allows the same codebase to run:
+
+* Locally without Docker
+* Inside Docker containers
+* In cloud deployments
+
+without code modifications.
+
+---
+
+## GitHub Actions CI/CD
+
+The repository includes a GitHub Actions workflow that automatically builds and publishes Docker images whenever code is pushed to the `main` branch.
+
+Workflow location:
+
+```text
+.github/workflows/docker-build.yml
+```
+
+Pipeline:
+
+```text
+git push
+    │
+    ▼
+GitHub Actions
+    │
+    ▼
+Docker Build
+    │
+    ▼
+GitHub Container Registry (GHCR)
+```
+
+---
+
+## GitHub Container Registry (GHCR)
+
+Docker images are automatically published to:
+
+```text
+ghcr.io/ganeshn523/healthcare-ai-assistant:latest
+```
+
+This allows the latest image to be pulled without rebuilding locally.
+
+Example:
+
+```bash
+docker pull ghcr.io/ganeshn523/healthcare-ai-assistant:latest
+```
+
+---
+
+## Benefits of Containerization
+
+* Consistent runtime environment
+* Simplified deployment process
+* Automated image builds through GitHub Actions
+* Portable application packaging
+* Reduced setup complexity for future deployments
+* Reproducible development and testing environments
+
 
 ---
 
