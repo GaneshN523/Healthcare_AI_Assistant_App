@@ -737,6 +737,344 @@ Authentication is validated before any expensive operations are executed.
 401 Unauthorized
 ```
 
+# 10. Testing
+
+## Overview
+
+The project includes a comprehensive automated test suite built using **Pytest**.
+
+The test suite validates the behavior of all major application layers:
+
+* Agent Layer
+* Embedding Layer
+* LLM Layer
+* RAG Layer
+
+The goal of these tests is to ensure:
+
+* Correct business logic execution
+* Proper routing behavior
+* Reliable retrieval and generation workflows
+* Robust error handling
+* Protection against regressions during future development
+
+---
+
+## Running Tests
+
+Run all tests:
+
+```bash
+pytest
+```
+
+Run with verbose output:
+
+```bash
+pytest -v
+```
+
+Run a specific test file:
+
+```bash
+pytest tests/test_agent.py
+pytest tests/test_embeddings.py
+pytest tests/test_llm.py
+pytest tests/test_rag.py
+```
+
+---
+
+## Test Structure
+
+```text
+tests/
+│
+├── test_agent.py
+├── test_embeddings.py
+├── test_llm.py
+└── test_rag.py
+```
+
+Each test file focuses on a specific application layer.
+
+---
+
+## Agent Layer Tests
+
+File:
+
+```text
+tests/test_agent.py
+```
+
+Coverage:
+
+* Appointment query detection
+* Tool routing
+* RAG routing
+* Query classification
+* Department extraction
+* Appointment slot retrieval
+* Input validation
+* Agent health checks
+
+Example validations:
+
+* "Book a cardiology appointment" → Tool route
+* "What is HIPAA compliance?" → RAG route
+* Empty input → Validation error
+
+---
+
+## Embedding Layer Tests
+
+File:
+
+```text
+tests/test_embeddings.py
+```
+
+Coverage:
+
+* Single embedding generation
+* Batch embedding generation
+* Embedding dimension validation
+* Cosine similarity calculations
+* Health checks
+* Empty input handling
+
+Example validations:
+
+* Generated embeddings contain valid float vectors
+* Embedding dimension matches all-MiniLM-L6-v2 (384)
+* Similarity scores remain within valid ranges
+
+---
+
+## LLM Layer Tests
+
+File:
+
+```text
+tests/test_llm.py
+```
+
+Coverage:
+
+* Prompt construction
+* RAG response workflow
+* Input validation
+* Knowledge base validation
+* Ollama connectivity checks
+* Direct chat functionality
+
+Example validations:
+
+* Prompts include both question and retrieved context
+* Empty questions raise validation errors
+* Uninitialized knowledge base prevents answer generation
+* Ollama health checks return expected status information
+
+---
+
+## RAG Layer Tests
+
+File:
+
+```text
+tests/test_rag.py
+```
+
+Coverage:
+
+* Document chunking
+* Confidence scoring
+* Knowledge base initialization checks
+* Retrieval workflow
+* Context extraction
+* Vector database reset operations
+* Health checks
+* Document loading validation
+
+Example validations:
+
+* Documents are correctly chunked
+* Retrieval returns context and sources
+* Confidence labels are assigned properly
+* Empty document directories raise appropriate exceptions
+
+---
+
+## Mocking Strategy
+
+The test suite uses:
+
+```python
+monkeypatch
+unittest.mock
+```
+
+to isolate components and avoid unnecessary external dependencies.
+
+Mocking is used for:
+
+* Ollama API calls
+* Embedding generation
+* ChromaDB queries
+* Retrieval workflows
+
+Benefits:
+
+* Faster test execution
+* Predictable results
+* Reduced dependency on external services
+* Improved test reliability
+
+---
+
+## Coverage Summary
+
+The automated tests verify:
+
+* Agent routing logic
+* Appointment tool behavior
+* Embedding generation
+* Similarity calculations
+* Prompt creation
+* LLM workflows
+* Ollama health monitoring
+* Document chunking
+* Retrieval operations
+* Confidence scoring
+* Knowledge base management
+* Error handling
+* Input validation
+
+---
+
+## Testing Philosophy
+
+The project follows a layered testing strategy:
+
+1. Test each component independently.
+2. Mock external dependencies whenever possible.
+3. Validate both success and failure scenarios.
+4. Ensure deterministic and repeatable results.
+5. Protect the system from regressions as new features are added.
+
+This approach provides confidence that the Healthcare AI Assistant behaves correctly across retrieval, generation, routing, and document-processing workflows.
+
+
+# 11. Project Documentation
+
+Additional project documentation is available in the `/docs` directory.
+
+## Documentation Index
+
+### UI Documentation
+
+File:
+
+```text
+docs/UI.md
+```
+
+Contents:
+
+* Streamlit application architecture
+* Authentication workflow
+* Session state management
+* Backend communication flow
+* Chat interface implementation
+* Knowledge base management
+* Health monitoring
+* Error handling
+* API interaction details
+
+---
+
+### Containerization Documentation
+
+File:
+
+```text
+docs/CONTAINER.md
+```
+
+Contents:
+
+* Docker architecture
+* Containerization strategy
+* Dockerfile explanation
+* Startup script configuration
+* Environment variable configuration
+* GitHub Actions workflow
+* GitHub Container Registry (GHCR) integration
+* CI/CD pipeline implementation
+
+---
+
+## Repository Structure
+
+```text
+healthcare-ai-assistant/
+│
+├── app/
+│   ├── main.py
+│   ├── rag.py
+│   ├── embeddings.py
+│   ├── llm.py
+│   ├── agent.py
+│   └── config.py
+│
+├── ui/
+│   └── stapp.py
+│
+├── data/
+│
+├── vector_store/
+│
+├── docs/
+│   ├── UI.md
+│   └── CONTAINER.md
+│   └── API-EXAMPLES.md
+│   └── AUTHENTICATION.md
+│   └── ARCHITECTURE.md
+│   └── DATASET.md
+│   └── MODEL-DETAILS.md
+│   └── TESTS.md
+│
+├── tests/
+│
+├── requirements.txt
+├── Dockerfile
+├── start.sh
+├── README.md
+└── .github/
+    └── workflows/
+        └── docker-build.yml
+```
+
+---
+
+## Development Notes
+
+This project was developed as a demonstration of:
+
+* Retrieval-Augmented Generation (RAG)
+* Semantic search using embeddings
+* Vector database integration
+* Local LLM inference with Ollama
+* FastAPI backend development
+* Streamlit frontend development
+* Agent-based request routing
+* Docker containerization
+* GitHub Actions CI/CD automation
+
+The implementation prioritizes clarity, modularity, and educational value while following production-inspired architectural patterns.
+
+
 # End of README
 
 
