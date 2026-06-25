@@ -194,7 +194,47 @@ GET /health
 
 ```json
 {
-  "status": "healthy"
+  "status": "healthy",
+  "services": {
+    "embeddings": {
+      "status": "healthy",
+      "model": "all-MiniLM-L6-v2",
+      "dimension": 384
+    },
+    "llm": {
+      "status": "healthy",
+      "model": "phi3",
+      "response_received": true
+    },
+    "vector_store": {
+      "status": "healthy",
+      "documents_in_store": 96
+    },
+    "agent": {
+      "status": "healthy",
+      "appointment_departments": [
+        "Cardiology",
+        "Dermatology",
+        "Neurology"
+      ],
+      "appointment_keywords": [
+        "appointment",
+        "appointments",
+        "schedule",
+        "scheduled",
+        "book",
+        "booking",
+        "availability",
+        "available",
+        "slot",
+        "slots",
+        "doctor availability",
+        "consultation",
+        "visit",
+        "reserve"
+      ]
+    }
+  }
 }
 ```
 
@@ -221,7 +261,7 @@ POST /ingest
 {
   "status": "success",
   "documents_processed": 6,
-  "chunks_created": 15
+  "chunks_created": 96
 }
 ```
 
@@ -248,12 +288,24 @@ POST /ask
 ```json
 {
   "route": "rag",
-  "answer": "Patients can request medication refills during telehealth visits...",
+  "answer": "Yes, patients can discuss and potentially request medication refills during telehealth visits; however, approval is subject to the provider's review based on various factors.",
+  "confidence": "medium",
+  "similarity_score": 0.6359,
   "sources": [
     {
-      "document": "telehealth.txt"
+      "document": "telehealth.txt",
+      "chunk_id": 8
+    },
+    {
+      "document": "telehealth.txt",
+      "chunk_id": 12
+    },
+    {
+      "document": "medication_refill.txt",
+      "chunk_id": 11
     }
-  ]
+  ],
+  "result": null
 }
 ```
 
@@ -262,7 +314,12 @@ POST /ask
 ```json
 {
   "route": "tool",
+  "answer": null,
+  "confidence": null,
+  "similarity_score": null,
+  "sources": null,
   "result": {
+    "tool": "appointment_tool",
     "department": "Cardiology",
     "available_slots": [
       "10:00 AM",
@@ -401,7 +458,7 @@ The `/data` directory contains domain-specific healthcare documents:
 | --------------------- | ----------------------------- |
 | telehealth.txt        | Telehealth policies and usage |
 | medication_refill.txt | Prescription refill rules     |
-| hipaa.txt             | Privacy and compliance rules  |
+| patient_privacy.txt   | Privacy and compliance rules  |
 | insurance.txt         | Insurance handling policies   |
 | discharge.txt         | Hospital discharge guidelines |
 | appointments.txt      | Appointment scheduling data   |
